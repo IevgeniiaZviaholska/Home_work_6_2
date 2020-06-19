@@ -44,6 +44,8 @@ li{
     height: 25%;
     display: inline-block;
     text-align: center;
+    box-sizing: border-box;
+    border: 2px solid white;
 }
 .lisbon{
     width: 50%;
@@ -89,6 +91,11 @@ li{
     width: 100%;
     background-color: #666699;
 }
-li:hover{
-        opacity: 0.6;
+
+.wether li:hover {
+    opacity: 1;
+}
+
+ul:hover > li { 
+    opacity: 0.6;
 }
